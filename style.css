@@ -1,0 +1,62 @@
+ol
+{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li:hover
+{
+    cursor: pointer;
+}
+
+
+.kupione
+{
+    color: blue;
+    text-decoration: line-through;
+}
+
+#text-box
+{
+    width: 300px;
+}
+
+li .fa-xmark
+{
+    padding-left: 8px;
+    
+    display: none;
+}
+
+ li:hover .fa-xmark,
+ li:hover .fa-xmark::before
+ {
+    display: inline-block;
+    text-decoration: none !important;
+ }
+
+ li.kupione .fa-xmark, 
+ li.kupione .fa-xmark::before
+ {
+    text-decoration: none !important;
+    color: black;
+ }
+
+#uklad
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#delete
+{
+    margin-top: 15px;
+}
